@@ -80,3 +80,17 @@ The underlying data is a complex **multivariate time-series dataset** provided i
 ### 1. Requirements
 
 The project dependencies are managed via `requirements.txt`:
+
+### 2. Installation
+
+Clone the repository and install the dependencies:
+
+```bash
+git clone [https://github.com/ricca200xx/Weather-Time-Series-Forecasting-with-Seq2Seq-GRU.git](https://github.com/ricca200xx/Weather-Time-Series-Forecasting-with-Seq2Seq-GRU.git)
+cd Weather-Time-Series-Forecasting-with-Seq2Seq-GRU
+pip install -r requirements.txt
+```
+### 3. Execution
+```bash
+jupyter notebook final-submission.ipynb
+```
