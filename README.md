@@ -1,6 +1,6 @@
-# ☁️ Weather Time-Series Forecasting with Seq2Seq GRU
+# Weather Time-Series Forecasting with Seq2Seq GRU
 
-## 🎯 Project Overview
+## Project Overview
 
 This project presents the solution developed for the **Deep Learning Course Challenge** on Kaggle, which focused on multivariate time-series forecasting of weather data. The primary goal was to demonstrate the understanding and application of deep learning architectures for sequential data analysis.
 
@@ -18,7 +18,7 @@ The model was optimized to minimize the **Mean Absolute Scaled Error (MASE)**, t
 
 ---
 
-## 🧠 Model Architecture: Seq2Seq GRU
+## Model Architecture: Seq2Seq GRU
 
 The **Seq2Seq** architecture was chosen for its capability to map a fixed-length input sequence ($T_{in}=90$) to a fixed-length output sequence ($T_{out}=30$).
 
@@ -43,7 +43,7 @@ The Decoder receives the context vector from the Encoder as its initial state an
 
 ---
 
-## 📈 Training Strategy and Regularization
+## Training Strategy and Regularization
 
 Several best practices were implemented to ensure stable training, rapid convergence, and strong generalization:
 
@@ -56,7 +56,7 @@ Several best practices were implemented to ensure stable training, rapid converg
 
 ---
 
-## 💾 Dataset and Preprocessing
+## Dataset and Preprocessing
 
 The underlying data is a complex **multivariate time-series dataset** provided in the file `train_dataset.csv`.
 
@@ -75,7 +75,7 @@ The underlying data is a complex **multivariate time-series dataset** provided i
 
 ---
 
-## ⚙️ Setup and Usage
+## Setup and Usage
 
 ### 1. Requirements
 
@@ -86,11 +86,11 @@ The project dependencies are managed via `requirements.txt`:
 Clone the repository and install the dependencies:
 
 ```bash
-git clone [https://github.com/ricca200xx/Weather-Time-Series-Forecasting-with-Seq2Seq-GRU.git](https://github.com/ricca200xx/Weather-Time-Series-Forecasting-with-Seq2Seq-GRU.git)
+git clone https://github.com/ricca200xx/Weather-Time-Series-Forecasting-with-Seq2Seq-GRU.git
 cd Weather-Time-Series-Forecasting-with-Seq2Seq-GRU
 pip install -r requirements.txt
 ```
 ### 3. Execution
 ```bash
-jupyter notebook final-submission.ipynb
+jupyter notebook seq_model.ipynb
 ```
